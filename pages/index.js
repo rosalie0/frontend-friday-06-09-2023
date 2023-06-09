@@ -2,10 +2,14 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import RectangleShoeImage from "../public/frontendfriday-shoe.png";
 import SquareShoeImage from "../public/pexels-ray-piedra-1464625.png";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <div className="h-screen bg-gradient-to-r from-figma-purple from-50% to-white to-50% ">
+      <Head>
+        <title>STEPS - Home</title>
+      </Head>
       <Navbar />
       <div className="grid grid-rows-2 max-w-7xl mx-auto mt-40">
         <div className="grid grid-cols-2 items-center">
