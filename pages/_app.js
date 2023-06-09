@@ -12,7 +12,7 @@ const anton = Anton({
 });
 const roboto = Roboto({
   subsets: ["latin"],
-  weight: "300",
+  weight: "400",
   variable: "--font-roboto",
 });
 const inter = Inter({

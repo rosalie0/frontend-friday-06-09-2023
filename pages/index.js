@@ -1,9 +1,9 @@
-import Image from "next/image";
-import { anton, roboto } from "../styles/fonts";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
     <div>
+      <Navbar />
       <h1 className="text-figma-grey uppercase font-bold text-5xl">
         shoes for every day
       </h1>
