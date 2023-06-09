@@ -12,6 +12,11 @@ module.exports = {
         "figma-yellow": "#F9FD3D",
         "figma-grey": "#2F3E38",
       },
+      fontFamily: {
+        sans: ["var(--font-inter)"],
+        anton: ["var(--font-anton)"],
+        roboto: ["var(--font-roboto)"],
+      },
     },
   },
   plugins: [],
